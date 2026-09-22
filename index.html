@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyện Kể Chư Thần | Greek Mythology Scrollytelling</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="scrolly-container">
+        <!-- Scene 1: Đỉnh Olympus -->
+        <section class="scene scene-1" id="scene-olympus">
+            <div class="overlay-gradient"></div>
+            <div class="content-box">
+                <span class="tag">MYTHOLOGY EPISODE I</span>
+                <h1 class="title">ĐỈNH OLYMPUS</h1>
+                <p class="subtitle">Nơi ngai vàng sừng sững giữa các tầng mây, khởi nguyên của thần thoại ngàn năm.</p>
+            </div>
+            
+            <!-- SVG Đồ họa vector mây & đồi núi -->
+            <div class="clouds cloud-bg-left">
+                <svg viewBox="0 0 500 200" fill="currentColor">
+                    <path d="M50,150 Q100,60 180,100 Q250,30 320,90 Q400,50 450,150 Z" />
+                </svg>
+            </div>
+            <div class="clouds cloud-bg-right">
+                <svg viewBox="0 0 600 250" fill="currentColor">
+                    <path d="M40,200 Q120,80 220,130 Q310,40 400,120 Q500,70 560,200 Z" />
+                </svg>
+            </div>
+            <div class="scroll-indicator">
+                <span>CUỘN ĐỂ KHÁM PHÁ</span>
+                <div class="mouse-icon"></div>
+            </div>
+        </section>
+
+        <!-- Scene 2: Thần Sấm Zeus -->
+        <section class="scene scene-2" id="scene-zeus">
+            <div class="lightning-strike"></div>
+            <div class="text-card left">
+                <span class="god-badge">Chúa tể Olympus</span>
+                <h2>ZEUS - THẦN SẤM SÉT</h2>
+                <p>Nắm giữ quyền trượng sấm sét Aegis, vị vua tối cao của các vị thần điều khiển sấm chớp, duy trì trật tự và công lý của thế giới vĩnh hằng.</p>
+                <div class="quote">“Khi sấm sét rền vang, mặt đất phải cúi đầu.”</div>
+            </div>
+            <div class="visual-wrapper right">
+                <!-- SVG Thần sấm biểu tượng nghệ thuật cổ điển -->
+                <div class="statue-silhouette">
+                    <svg viewBox="0 0 400 600" class="statue-svg">
+                        <defs>
+                            <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ffe27a" />
+                                <stop offset="50%" stop-color="#d4af37" />
+                                <stop offset="100%" stop-color="#8a6e1a" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Biểu tượng phong cách nghệ thuật cổ Hy Lạp cách điệu -->
+                        <circle cx="200" cy="140" r="70" fill="url(#gold-grad)" opacity="0.9" />
+                        <path d="M140,230 Q200,200 260,230 L290,520 Q200,560 110,520 Z" fill="url(#gold-grad)" opacity="0.8" />
+                        <!-- Tia sét cầm tay -->
+                        <polygon class="bolt-poly" points="260,100 285,190 270,195 305,290 250,220 265,215" fill="#ffffff" filter="drop-shadow(0 0 12px #ffe600)" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scene 3: Đền Thờ Parthenon / Kỷ Nguyên Vàng -->
+        <section class="scene scene-3" id="scene-temple">
+            <div class="temple-bg-text">PARTHENON</div>
+            <div class="text-card center">
+                <span class="god-badge">Di sản trường tồn</span>
+                <h2>KỶ NGUYÊN VÀNG</h2>
+                <p>Những cột trụ Doric bằng đá cẩm thạch trắng vươn lên bầu trời xanh Địa Trung Hải, minh chứng bất diệt cho sự sùng kính của loài người.</p>
+            </div>
+            <div class="temple-facade">
+                <svg viewBox="0 0 1000 500" class="temple-svg">
+                    <defs>
+                        <linearGradient id="marble" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#ffffff"/>
+                            <stop offset="100%" stop-color="#d9cfbf"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Mái đền tam giác -->
+                    <polygon points="100,160 500,40 900,160" fill="url(#marble)" />
+                    <rect x="80" y="160" width="840" height="40" fill="#e8dfd1" />
+                    <!-- Các cột trụ cổ điển -->
+                    <rect x="140" y="200" width="50" height="260" fill="url(#marble)" />
+                    <rect x="250" y="200" width="50" height="260" fill="url(#marble)" />
+                    <rect x="360" y="200" width="50" height="260" fill="url(#marble)" />
+                    <rect x="475" y="200" width="50" height="260" fill="url(#marble)" />
+                    <rect x="590" y="200" width="50" height="260" fill="url(#marble)" />
+                    <rect x="700" y="200" width="50" height="260" fill="url(#marble)" />
+                    <rect x="810" y="200" width="50" height="260" fill="url(#marble)" />
+                    <!-- Nền móng bậc thang -->
+                    <rect x="60" y="460" width="880" height="30" fill="#cfc2ad" />
+                </svg>
+            </div>
+        </section>
+
+        <!-- Scene 4: Hậu kỳ thần bí -->
+        <section class="scene scene-4" id="scene-outro">
+            <div class="text-card center">
+                <h2 style="font-size: 3rem; margin-bottom: 20px;">VĨ THẦN BẤT TỬ</h2>
+                <p style="max-width: 600px; margin: 0 auto; color: #b8b1a3;">Huyền thoại khép lại, nhưng những câu chuyện thần linh vẫn ngân vang vĩnh viễn trong dòng chảy lịch sử.</p>
+                <div style="margin-top: 40px;">
+                    <a href="#scene-olympus" class="btn-restart">QUAY LẠI ĐỈNH NÚI</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
